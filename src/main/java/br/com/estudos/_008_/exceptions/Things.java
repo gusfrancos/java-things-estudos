@@ -1,4 +1,4 @@
-package br.com.estudos.oo.exceptions;
+package br.com.estudos._008_.exceptions;
 
 /**You need to know the following points regarding try-with-resources statement for the exam:
 The resource class must implement java.lang.AutoCloseable interface. Many standard JDK classes such as implement java.io.Closeable interface, which extends java.lang.AutoCloseable. 
