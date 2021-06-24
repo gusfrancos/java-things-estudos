@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 
 public class CriandoPathTest {
 	public static void main(String[] args) {
@@ -21,10 +22,37 @@ public class CriandoPathTest {
 		
 		//Criando pasta com path
 		Path path1 = Paths.get("pasta");
+		
+		//Criando estrutura de diretorios
+		Path path2 = Paths.get("pasta\\subpasta\\subsubpasta");
+		
+		//Criando arquivos
+		Path arquivo = Paths.get("pasta\\subpasta\\subsubpasta\\file.txt");
+		
 		try {
 			if(Files.notExists(path1)) {
 				Files.createDirectory(path1);
 			}
+			
+			if(Files.notExists(path2)) {
+				Files.createDirectories(path2);
+			}
+			
+			if(Files.notExists(arquivo)) {
+				Files.createFile(arquivo);
+			}
+			
+		//Mover o arquivo de um lado para outro
+		Path source = Paths.get("folder2\\arquivo2.txt");
+		Path target = Paths.get("folder2\\arquivoCopiado.txt");
+		Files.copy(source, target, StandardCopyOption.REPLACE_EXISTING);
+		
+		
+		//Para deletar
+		Files.deleteIfExists(arquivo);
+		
+			
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
