@@ -4,6 +4,7 @@ package br.com.estudos._002_.conventions;
  * Comentário inicial de uma classe
  * @author gusfr
  *
+ *Obs: comentários não irão para dentro do bytecode (.class)
  */
 public class Comentarios {
 
