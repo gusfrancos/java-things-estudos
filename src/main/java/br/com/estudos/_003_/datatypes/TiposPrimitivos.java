@@ -2,7 +2,7 @@ package br.com.estudos._003_.datatypes;
 
 /**
  * Temos dois tipos de variaveiss as do tipo primitivo e a dos tipo reference (são os objetos)
- * Temos 8 tipo de variaveis primitivas:
+ * Temos 8 tipos de variáveis primitivas (São tipos de dados que guardam em memória valores simples):
  * int, double, float, boolean, char, byte,short, long
  * 
  * Tipos integrais (São tipos de dados que representam um inteiro)
