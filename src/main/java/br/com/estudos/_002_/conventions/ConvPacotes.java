@@ -1,6 +1,7 @@
 package br.com.estudos._002_.conventions;
+//primeira linha de código de uma classe deve ser o pacote
 
-//o nome do pacote será dominio inverso
+//o nome do pacote será (uRL invertida +  dominio + nomerepresentativo da pasta com código
 // br.com.nomePrincipaldoDominio.nomepastascomcodigo
 //descrição do pacote na primeira linha do código
 public class ConvPacotes {
