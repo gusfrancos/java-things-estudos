@@ -26,20 +26,15 @@ public class TiposPrimitivos
 {
     public static void main( String[] args )
     {
-    	//um double ou um float dividido por zero causa INFINITY
-    	Double d = 10.0 / 0.0;
-    	d.isInfinite(d);  //true
+    	// double, float, byte, boolean, char, short, long, int
     	
-    	//********************************************
+    	//************* Pontos flutuantes*******************************
+    	//double - 64bits - 8bytes - Ponto flutuante
+    	double salarioDouble = 30000;
+    	double salarioDouble2 = 30000.0;
+    	double salarioDouble3 = 30000.0d;
     	
-    	//int - 32bits - Integral
-    	//-2.147.483.648 atÈ 2.147.483.647
-    	int idadeDosPaisParaCadastro = 10;
-    	
-    	//double - 64bits - Ponto flutuante
-    	double salarioDouble = 3000;
-    	
-    	//float - 32bits - Ponto flutuante
+       	//float - 32bits - 4bytes - Ponto flutuante
     	float floatRecebeInteger = 3000;
     	float floatRecebeNegativo = -1;
     	float floatRecebeHex = 0x0123;
@@ -48,7 +43,10 @@ public class TiposPrimitivos
     	//nos casos abaixo o cast implicito n„o È permitido, pois o valor pode ser um double
     	//float g = 0 * 1.5;
     	//float h = 1.5 + 1.5;
+    	//***********************************************
     	
+    	
+    	//************* Integral *******************************
     	//byte - 8bits - Integral
     	//-128 atÈ 127
     	byte idadeByte = 12;
@@ -57,25 +55,29 @@ public class TiposPrimitivos
     	//-32768 at√© 32767
     	short idadeShort = 32727;
     	//Short precisa de cast para byte e byte precisa de cast para short por causa de seus ranges
-    	
-    	// boolean - true or false
-    	boolean verdadeiro = true;
-    	boolean falso = false;
+    	    	
+    	//int - 32bits - Integral
+    	//-2.147.483.648 atÈ 2.147.483.647
+    	int idadeDosPaisParaCadastro = 10;
     	
     	//long - 64bits - Integral
     	long numeroGrande = 1000L;
+    	//***********************************************
     	
+    
+    	//***********************************************    	
+    	// boolean - true or false
+    	boolean verdadeiro = true;
+    	boolean falso = false;
+    	//***********************************************
+    
+    	//*********************************************** 
     	// Char recebe 2 bytes
     	// 0 e 65535
     	char caractere1 = 'A'; //valor literal 
     	char caractere2 = 95;  // valor n√∫merico 95 √© igual a _
     	char carctere3 = '\u0041'; // valor hexadecimal √© igual a letra A
-    	String nome = "Gustavo";
-    	
-    	Integer i1 = 1;
-    	
-
-    	
+    	//*********************************************** 
     	
     	
     	//variaveis de classe recebem valor de inicializa√ß√£o padr√£o
