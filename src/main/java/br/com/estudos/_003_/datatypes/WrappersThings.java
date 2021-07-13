@@ -3,17 +3,7 @@ package br.com.estudos._003_.datatypes;
 public class WrappersThings {
 
 	public static void main(String[] args) {
-		//tipos primitivos
-		byte bytePrimitivo = 1;
-		short shortPrimitivo = 1;
-		int intPrimitivo = 1;
-		long longPrimitivo = 1;
-		float floatPrimitivo = 1.0f;
-		double doublePrimitivo = 1.0;
-		boolean booleanPrimitivo = true;
-		char charPrimitivo = 'b';
-		
-		//Wrappers
+		//Wrappers - Tipos de referencia
 		Byte byteWrappers = 1;    
 		Short shortWrappers = 1;
 		Integer intWrappers = 1;
@@ -39,7 +29,22 @@ public class WrappersThings {
 		
 		
 		
-		
+		String nome = "Gustavo";
+    	
+    	Integer i1 = 1;
+    	
+
+    	//um double ou um float dividido por zero causa INFINITY
+    	Double d = 10.0 / 0.0;
+    	d.isInfinite(d);  //true
+    	
+    	
+    	//variaveis de classe recebem valor de inicialização padrão
+    			// as de tipo reference recebe valor null e as de primitivo dentro da classe 
+    			// recebe valores padroes
+    			// (int, double, float, long recebe 0)
+    			// (Boolean recebe valor padrão false)
+    			// (char recebe um espaço em branco)
 		
 
 	}
