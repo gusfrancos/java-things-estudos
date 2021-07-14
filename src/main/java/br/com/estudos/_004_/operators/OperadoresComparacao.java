@@ -8,6 +8,7 @@ public class OperadoresComparacao {
 	 *  <= menor igual
 	 *  >= maior igual
 	 *  == igualdade
+	 *  != diferente
 	 *  
 	 *  O instanceof em java é conhecido como um operador de comparação de tipos
 	 */
