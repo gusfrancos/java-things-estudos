@@ -28,6 +28,7 @@ public class OperadoresAritimeticos {
 		//5.0f
 		System.out.println(4 + 1.0f);
 		
+		//O resultado da operação entre números inteiros será sempre númerfos inteiros
 		// 5 e 4 sÃ£o inteiros ele vai pegar o resultado transformar 
 		// para inteiro arredondando
 		System.out.println(5/4);
@@ -35,6 +36,9 @@ public class OperadoresAritimeticos {
 		// cast sempre do menor para o maior
 		// vai transformar char 'a' em int e somar
 		System.out.println('a' + 1);
+		
+		
+		
 		
 		
 		
