@@ -5,6 +5,7 @@ package br.com.estudos._004_.operators;
  *  || = or
  *  & = and
  *  | = or
+ *  ! = not (operador de nega��o)
  *  
  *  Se vc usar o &&  e a primeira condição já for falsa ele não verifica a segunda
  *  Se vc usar o &  ele sempre vai verificar todas as condições mesmo com a primeira sendo false
