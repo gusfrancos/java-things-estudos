@@ -1,6 +1,6 @@
 package br.com.estudos._004_1.condicionais;
 
-public class EstruturasCondicionais {
+public class EstruturasCondicionaisIF {
 	public static void main(String[] args) {
 		
 		// IF (SE)

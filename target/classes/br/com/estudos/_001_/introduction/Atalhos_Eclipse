@@ -1,2 +1,6 @@
-Ctrl + Shift + F : Mostra todos os comandos de atalhos
 Ctrl + Shift + O : Organizar os imports
+Ctrl + Shift + F : Este atalho indenta o teu código, baseado nos templates definidos nas preferências da IDE. Se não existir nenhum template, o padrão do eclipse será utilizado.
+Ctrl + Shift + R : Este atalho abre uma janela para busca por resources, arquivos que se encontrem no seu workspace.
+Ctrl + Shift + T : Este atalho habilita uma janela de busca de arquivos de código fonte, arquivos compiláveis, inclusive os que se encontram dentro dos jar’s usadas pela aplicação.
+Ctrl + I : Organiza o código selecionado, com relação ao espaçamento do mesmo.
+Ctrl + E : Habilita seleção dos arquivos abertos no Editor de código fonte.
