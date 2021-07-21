@@ -1,13 +1,13 @@
 package br.com.estudos._006_.arrayscollectios;
 
 
-//o indice de um array sempre come√ßa em 0
-// o tamanho do array √© o indice + 1
+//o indice de um array sempre comeÁa em 0
+// o tamanho do array È o indice + 1
 // toda vez que vc for criar o objeto array vc tem que passar o tamanho
 // o colchete pode ser colocado antes ou depois do nome da variavel
-//Array √© sempre um objeto mesmo que seja um array de tipo primitivo
-// se colocar mais de um colchete vira um array multidimenssional
-// quando vc cria um array mesmo que n√£o atribua ele j√° recebe um valor padr√£o
+//Array È sempre um objeto mesmo que seja um array de tipo primitivo
+//se colocar mais de um colchete vira um array multidimenssional
+//quando vc cria um array mesmo que n„o atribua ele j√° recebe um valor padr„o
 
 
 /**
@@ -21,12 +21,14 @@ package br.com.estudos._006_.arrayscollectios;
 
 public class ArraysThings {
 
-	// valor padr√£o para byte, short, int long float, double √© igual a 0
-	// valor padr√£o para char igual a '\u0000' representa um espa√ßo vazio
-	// valor padr√£o para boolean √© igual a false
-	// valor padr√£o para arrays de objeto ser√° null
+	// valor padr„o para byte, short, int long float, double s„o igual a 0
+	// valor padr„o para char igual a '\u0000' representa um espaÁo vazio
+	// valor padr„o para boolean s„o igual a false
+	// valor padr„o para arrays de objeto ser· null
 
 	public static void main(String[] args) {
+		
+		//Array de tipo primitivo
 		int[] idade = new int[3];
 		int idade2[];
 
@@ -45,7 +47,7 @@ public class ArraysThings {
 		}
 
 		// se vc criar uma nova referencia para o
-		// array j√° criado, vc perde todos valores atribuidos na referencia anterior
+		// array j· criado, vc perde todos valores atribuidos na referencia anterior
 		nome = new String[4];
 
 		// formas de inicializar
