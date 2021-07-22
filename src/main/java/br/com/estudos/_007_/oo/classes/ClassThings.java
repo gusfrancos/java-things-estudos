@@ -33,10 +33,12 @@ public class ClassThings {
 		//carro.modelo = "Fusca";
 		//carro.placa = "QWJ1029";
 		//carro.velocidadeMaxima = 12;
-		
-		
-		
-		
 	}
 	
+//	Coesão:
+//	Coesão está, na verdade, ligado ao princípio da responsabilidade única, que foi introduzido por Robert C. Martin no inicio dos anos 2000 
+//	e diz que uma classe deve ter apenas uma única responsabilidade e realizá-la de maneira satisfatória, ou seja, uma classe não deve assumir
+//	responsabilidades que não são suas.
+
+
 }
