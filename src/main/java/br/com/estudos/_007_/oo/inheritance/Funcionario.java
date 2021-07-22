@@ -1,5 +1,7 @@
 package br.com.estudos._007_.oo.inheritance;
 
+import br.com.estudos._007_.oo.Pessoa;
+
 public class Funcionario extends Pessoa{
 
 	private double salario;

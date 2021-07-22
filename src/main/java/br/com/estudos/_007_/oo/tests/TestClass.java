@@ -1,4 +1,4 @@
-package br.com.estudos._007_.oo;
+package br.com.estudos._007_.oo.tests;
 
 class Data {
     private int x = 0, y = 0;

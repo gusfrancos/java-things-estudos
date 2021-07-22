@@ -1,4 +1,4 @@
-package br.com.estudos._007_.oo;
+package br.com.estudos._007_.oo.tests;
 
 //Etapas da inacialização de um objeto
 	// 1 - Bloco de inicialização estatico é executado antes de qualquer coisa e só roda uma vez.

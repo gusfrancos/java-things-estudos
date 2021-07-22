@@ -1,20 +1,53 @@
-package br.com.estudos._007_.oo.inheritance;
+package br.com.estudos._007_.oo;
+
+import br.com.estudos._007_.oo.inheritance.Endereco;
 
 public class Pessoa {
 	private String nome;
 	private String cpf;
 	private Endereco endereco;
+	private int idade;
+	private char sexo;
 	
 	
     public void imprimir() {
     	System.out.println("Nome:" + this.nome);
     	System.out.println("Cpf:" + this.cpf);
-    	System.out.println("EndereÃ§o:" + this.endereco);
+    	System.out.println("Endereço:" + this.endereco);
     	
     }
 	
+    
 	
 	
+	public int getIdade() {
+		return idade;
+	}
+
+
+
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+
+
+
+
+	public char getSexo() {
+		return sexo;
+	}
+
+
+
+
+	public void setSexo(char sexo) {
+		this.sexo = sexo;
+	}
+
+
+
+
 	/**
 	 * @return the nome
 	 */

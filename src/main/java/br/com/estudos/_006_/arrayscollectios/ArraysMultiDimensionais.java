@@ -5,6 +5,7 @@ public class ArraysMultiDimensionais {
 
 	public static void main(String[] args) {
 		
+		//inicialização de arrays multidimencionais
 		//int [][] numeros = new int [3] [];
 		//numeros[0] = new int[2];
 		//numeros[1] = new int[] {1,2,3};
