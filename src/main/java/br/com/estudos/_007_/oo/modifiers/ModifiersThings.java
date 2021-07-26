@@ -1,8 +1,8 @@
-package br.com.estudos._007_.oo;
+package br.com.estudos._007_.oo.modifiers;
 
 public class ModifiersThings {
 	
-	/*Os modificadores de acesso são padrões de visibilidade de acessos às classes, atributos e métodos. 
+	/*Os modificadores de acesso s�o padroes de visibilidade de acessos às classes, atributos e métodos. 
 	 * Esses modificadores são palavras-chaves reservadas pelo Java, ou seja, palavras reservadas não podem 
 	 * ser usadas como nome de métodos, classes ou atributos.
 	 * Como boas práticas (best practices) do Java, na maioria das declarações de variáveis de instância são definidos

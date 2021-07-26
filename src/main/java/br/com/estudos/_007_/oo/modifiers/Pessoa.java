@@ -1,4 +1,4 @@
-package br.com.estudos._007_.oo;
+package br.com.estudos._007_.oo.modifiers;
 
 import br.com.estudos._007_.oo.inheritance.Endereco;
 
@@ -12,6 +12,7 @@ public class Pessoa {
 	
     public void imprimir() {
     	System.out.println("Nome:" + this.nome);
+    	System.out.println("Nome:" + this.idade);
     	System.out.println("Cpf:" + this.cpf);
     	System.out.println("Endereço:" + this.endereco);
     	

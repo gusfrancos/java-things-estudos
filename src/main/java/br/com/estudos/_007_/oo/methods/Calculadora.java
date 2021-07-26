@@ -44,9 +44,13 @@ public class Calculadora {
 	//posso passar os valores separados por virgula
 	// só pode ter um varargs por método
 	//posso ter uma variavel com um varargs, mas o varargs tem que ser o ultimo
-	public double somaComVarArgs(int teste, int... numeros) {
+	public void somaComVarArgs(int teste, int... numeros) {
+		int soma = 0;
+		for(int num : numeros) {
+			soma += num;
+		}
 		
-		return 0;
+		System.out.println(soma);
 	}
 	
 	

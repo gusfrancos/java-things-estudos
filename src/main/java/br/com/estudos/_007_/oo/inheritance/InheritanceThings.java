@@ -1,6 +1,6 @@
 package br.com.estudos._007_.oo.inheritance;
 
-import br.com.estudos._007_.oo.Pessoa;
+import br.com.estudos._007_.oo.modifiers.Pessoa;
 
 /**Não existe multipla herança em java
  * 
