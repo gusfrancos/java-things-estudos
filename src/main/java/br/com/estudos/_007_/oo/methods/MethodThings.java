@@ -1,7 +1,5 @@
 package br.com.estudos._007_.oo.methods;
 
-import br.com.estudos._007_.oo.Calculadora;
-
 public class MethodThings {
 
 	// comvencao nomes metodos
