@@ -1,12 +1,13 @@
-package br.com.estudos._007_.oo;
+package br.com.estudos._007_.oo.overload;
 
+import br.com.estudos._007_.oo.modifiers.Funcionario;
 
 /*
- * Sobrecarga √© a cria√ß√£o de v√°rios m√©todos com o mesmo nome dentro de uma mesma classe, 
- * mas desde que estes m√©todos tenham diferentes conjuntos de par√¢metros, sejam eles n√∫meros, 
- * simplesmente a ordem dos par√¢metros ou ent√£o tipos diferentes.
+ * Sobrecarga È a criaÁ„o de v·rios mÈtodos com o mesmo nome dentro de uma mesma classe, 
+ * mas desde que estes mÈtodos tenham diferentes conjuntos de parametros, sejam eles n˙meros, 
+ * simplesmente a ordem dos parametros ou ent„o tipos diferentes.
  * 
- * Construtores n√£o t√™m retorno
+ * Construtores n„o tÈm retorno
  * this(); // chamando outro construtor da classe 
  * Um construtor s√≥ pode ser chamado dentro de outro construtor
  */
