@@ -1,11 +1,11 @@
-package br.com.estudos._007_.oo;
+package br.com.estudos._007_.oo.blocosinicializacao;
 
 public class BlocosDeInicializacao {
 	//Etapas da inacialização de um objeto
 	// 1 - Bloco de inicialização estatico é executado antes de qualquer coisa e só roda uma vez.
 	// 2 - Aloca espaço na memória para o objeto que será criado
 	// 3 - Cada atributo de classe é inicializado com seus valores default ou valores explicitos
-	// 4  - Bloco de inicialização padrão é executado
+	// 4  - Bloco de inicialização (padr�o ou de instancia) sempre executado (roda antes do construtor)
 	// 5 - o construtor é executado
 	
 	private int [] parcelas;
@@ -19,7 +19,7 @@ public class BlocosDeInicializacao {
 	}
 	
 	
-	
+	//conhecido como bloco de inicializa��o de instancia (padr�o)
 	//para criar um bloco de inicialização vc abre e fecha chaves
 	//boas praticas indicam colocar este bloco antes do construtor.. porém se vc colocar em outro lugar ele vai ser executado antes de qualquer maneira
 	{

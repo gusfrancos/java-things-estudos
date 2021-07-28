@@ -1,5 +1,4 @@
-package br.com.estudos._007_.oo;
-
+package br.com.estudos._007_.oo.statics;
 
 //static
 	/* É usado para a criação de uma variável que poderá ser acessada por todas as instâncias de objetos desta 

@@ -5,12 +5,32 @@ public class Anime {
 	private int episodios;
 	private String nome;
 	private String genero;
+	private String estudio;
 	
 	//* Construtores não tém retorno
 	// * this(); // chamando outro construtor da classe 
-	// * Um construtor sÃ³ pode ser chamado dentro de outro construtor
+	// outro construtor só pode ser chamado dentro do corpo de um construtor
+	public Anime(String tipo, String nome, int episodios, String genero) {
+		//em um construtor para chamar outro construtor você só precisa escrever this();
+		this();
+		System.out.println("Dentro do construtor com 4 argumentos");
+		this.init(tipo, nome, episodios, genero);
+	}
+	
+	public Anime(String tipo, String nome, int episodios, String genero, String estudio) {
+		//em um construtor para chamar outro construtor você só precisa escrever this();
+		this(tipo, nome, episodios, genero);
+		System.out.println("Dentro do construtor com 5 argumentos");
+		this.estudio = estudio;
+		this.init(tipo, nome, episodios, genero);
+	}
+	
+	
+	
+	
+	//sobrecarga de construtores
 	public Anime() {
-		
+		System.out.println("Dentro do construtor sem argumentos");
 	}
 	
 	
@@ -19,6 +39,7 @@ public class Anime {
 		System.out.println(this.episodios);
 		System.out.println(this.nome);
 		System.out.println(this.genero);
+		System.out.println(this.estudio);
 	}
 	
 	/* Sobrecarga é a criação de vários métodos com o mesmo nome dentro de uma mesma classe, 
