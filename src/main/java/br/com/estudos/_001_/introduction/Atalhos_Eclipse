@@ -7,3 +7,12 @@ Ctrl + E : Habilita seleção dos arquivos abertos no Editor de código fonte.
 
 
 Ctrl + 3 : pesquisa de funcionalidades
+
+
+
+Debug:
+F6 = Modo debug, executar uma linha.
+
+F8 = Modo debug, executar até o proximo breakpoint se houver, ou até o final da execução.
+
+Ctrl + F2 = Para a execução atual do debug.
