@@ -36,7 +36,7 @@ public class InheritanceThings {
 		
 		//------------------------
 		
-		Funcionario  f = new Funcionario();
+		Funcionario  f = new Funcionario("teste");
 		f.setNome("GuGu");
 		f.setCpf("23434354545454");
 		Endereco e1 = new Endereco();

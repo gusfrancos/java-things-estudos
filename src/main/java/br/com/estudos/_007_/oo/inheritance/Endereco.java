@@ -3,7 +3,15 @@ package br.com.estudos._007_.oo.inheritance;
 public class Endereco {
 	private String rua;
 	private String bairro;
+	private String cep;
 	
+	public String getCep() {
+		return cep;
+	}
+
+	public void setCep(String cep) {
+		this.cep = cep;
+	}
 
 	/**
 	 * @return the rua

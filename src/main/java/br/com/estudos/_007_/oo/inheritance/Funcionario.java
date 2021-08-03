@@ -1,12 +1,15 @@
 package br.com.estudos._007_.oo.inheritance;
 
-import br.com.estudos._007_.oo.modifiers.Pessoa;
+
 
 public class Funcionario extends Pessoa{
 
 	private double salario;
 	
 	
+	public Funcionario(String nome) {
+        super(nome);
+    }
 	
 	   public void imprimir() {
 	    	System.out.println("Nome:" + this.getNome());
@@ -14,6 +17,10 @@ public class Funcionario extends Pessoa{
 	    	System.out.println("Endereço:" + this.getEndereco());
 	    	System.out.println("Salário:" + this.salario);
 	    	
+	    }
+	   
+	   public void relatorioPagamento() {
+	        System.out.println("Eu " + this.nome + " recevi o salario de " + this.salario);
 	    }
 	
 
