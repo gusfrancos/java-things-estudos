@@ -44,7 +44,7 @@ public class InheritanceThings {
 		e1.setRua("Rua: 24");
 		f.setEndereco(e1);
 		f.setSalario(150000);
-		f.imprimir();
+		f.imprime();
 		
 		
 		

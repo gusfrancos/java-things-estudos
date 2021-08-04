@@ -1,45 +1,36 @@
 package br.com.estudos._007_.oo.inheritance;
 
+public class Funcionario extends Pessoa {
 
-
-public class Funcionario extends Pessoa{
-
-	private double salario;
-	
-	
-	public Funcionario(String nome) {
-        super(nome);
+    private double salario;
+    static {
+        System.out.println("Dentro do bloco de inicialização estático de Funcionario");
     }
-	
-	   public void imprimir() {
-	    	System.out.println("Nome:" + this.getNome());
-	    	System.out.println("Cpf:" + this.getCpf());
-	    	System.out.println("EndereÃ§o:" + this.getEndereco());
-	    	System.out.println("SalÃ¡rio:" + this.salario);
-	    	
-	    }
-	   
-	   public void relatorioPagamento() {
-	        System.out.println("Eu " + this.nome + " recevi o salario de " + this.salario);
-	    }
-	
+    {
+        System.out.println("Dentro do bloco inicialização de Funcionario 1");
+    }
+    {
+        System.out.println("Dentro do bloco inicialização de Funcionario 2");
+    }
+    public Funcionario(String nome) {
+       super(nome);
+        System.out.println("Dentro do construtor de funcionário");
+    }
 
-	/**
-	 * @return the salario
-	 */
-	public double getSalario() {
-		return salario;
-	}
+    public void imprime() {
+        super.imprime();
+        System.out.println(this.salario);
+    }
 
-	/**
-	 * @param salario the salario to set
-	 */
-	public void setSalario(double salario) {
-		this.salario = salario;
-	}
+    public void relatorioPagamento() {
+        System.out.println("Eu " + this.nome + " recevi o salario de " + this.salario);
+    }
 
-	
-	
-	
+    public double getSalario() {
+        return salario;
+    }
 
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
 }
