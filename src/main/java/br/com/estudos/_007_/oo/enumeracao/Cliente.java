@@ -2,9 +2,9 @@ package br.com.estudos._007_.oo.enumeracao;
 
 public class Cliente {
 	
-	enum TipoPagamento {
-		AVISTA, APRAZO
-	}
+	//enum TipoPagamento {
+	//	AVISTA, APRAZO
+	//}
 	
 	private String nome;
 	private TipoCliente tipoCliente;
@@ -19,9 +19,14 @@ public class Cliente {
 	}
 	
 	@Override
-	public String toString() {
-		return "Cliente [nome=" + nome + ", tipo=" + tipoCliente + ", tipoPagamento=" + tipoPagamento + "]";
-	}
+    public String toString() {
+        return "Cliente{" +
+                "nome='" + nome + '\'' +
+                ", tipoCliente=" + tipoCliente.getNome() +
+                ", tipoClienteInt=" + tipoCliente.getTipo() +
+                ", tipoPagamento=" + tipoPagamento +
+                '}';
+    }
 
 	public TipoPagamento getTipoPagamento() {
 		return tipoPagamento;

@@ -2,7 +2,7 @@ package br.com.estudos._007_.oo.enumeracao;
 
 public enum TipoCliente {
 	//constant specific class body (corpo de classe especifico constante)
-	PESSOA_FISICA(1, "Pessoa fÃ­sica"), PESSOA_JURIDICA(2, "Pessoa jurÃ­dica") { 
+	PESSOA_FISICA(1, "Pessoa física"), PESSOA_JURIDICA(2, "Pessoa jurídica") { 
 		public String getId() {
 			return "B";
 		}
@@ -12,6 +12,17 @@ public enum TipoCliente {
 		this.tipo = tipo;
 		this.nome = nome;
 	}
+	
+	public static TipoCliente tipoClientePorNome(String nome) {
+		for(TipoCliente tipoCliente : values()) {
+			if(tipoCliente.getNome().equals(nome)) {
+				return tipoCliente;
+			}
+		}
+		
+		return null;
+	}
+	
 
 	private int tipo;
 	private String nome;
