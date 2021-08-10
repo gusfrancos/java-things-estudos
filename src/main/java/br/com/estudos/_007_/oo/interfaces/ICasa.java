@@ -1,4 +1,4 @@
-package br.com.estudos._007_.oo;
+package br.com.estudos._007_.oo.interfaces;
 
 interface ICasa {
 	public default String getXXX() {

@@ -1,6 +1,6 @@
 package br.com.estudos._007_.oo.classes;
 
-import br.com.estudos._007_.oo.Estudante;
+import br.com.estudos._007_.oo.abstratas.Estudante;
 import br.com.estudos._007_.oo.statics.Carro;
 
 // Classes são um moldes para criar objetos

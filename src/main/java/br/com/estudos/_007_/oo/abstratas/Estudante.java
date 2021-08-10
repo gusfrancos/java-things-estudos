@@ -1,4 +1,4 @@
-package br.com.estudos._007_.oo;
+package br.com.estudos._007_.oo.abstratas;
 
 public class Estudante {
 	public String nome;
