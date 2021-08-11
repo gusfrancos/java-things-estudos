@@ -8,7 +8,7 @@ Ctrl + E : Habilita seleção dos arquivos abertos no Editor de código fonte.
 
 Ctrl + 3 : pesquisa de funcionalidades
 
-
+Alt + Shift + R: Renomear
 
 Debug:
 F6 = Modo debug, executar uma linha.
