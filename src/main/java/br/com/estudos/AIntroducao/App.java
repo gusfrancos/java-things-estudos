@@ -1,4 +1,4 @@
-package br.com.estudos._001_.introduction;
+package br.com.estudos.AIntroducao;
 
 /**
  * Hello world!
