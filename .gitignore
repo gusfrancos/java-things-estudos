@@ -5,3 +5,6 @@ target/classes/br/com/estudos/_007_/oo/Funcionario.class
 *.class
 *.class
 *.class
+target/classes/br/com/estudos/AIntroducao/atalhos_eclipse
+target/classes/br/com/estudos/AIntroducao/instalar_eclipse
+target/classes/br/com/estudos/AIntroducao/instalar_java
