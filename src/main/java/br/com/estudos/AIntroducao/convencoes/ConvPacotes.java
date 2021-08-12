@@ -1,4 +1,4 @@
-package br.com.estudos._002_.conventions;
+package br.com.estudos.AIntroducao.convencoes;
 //primeira linha de código de uma classe deve ser o pacote
 
 //o nome do pacote será (uRL invertida +  dominio + nomerepresentativo da pasta com código

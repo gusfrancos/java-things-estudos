@@ -1,4 +1,4 @@
-package br.com.estudos._002_.conventions;
+package br.com.estudos.AIntroducao.convencoes;
 
 //* Convenção para nome de variáveis: 
 //	 * Devem iniciar com minuscula. 
