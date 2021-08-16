@@ -1,5 +1,21 @@
 package br.com.estudos.HExcecoes;
 
+
+
+//Error: São situações onde o seu sistema não tem como se recuperar
+//Execeções podem ser checked e podem unchecked
+// Checked e Unchecked
+//checked: são execeções que são filhas da classe Exception diretamente (se não tratadas elas lnacam erro em tempo de compilação)
+//Unchecked: é a exceção RuntimeException e suas filhas diretas
+
+
+
+
+
+
+
+
+
 /**You need to know the following points regarding try-with-resources statement for the exam:
 The resource class must implement java.lang.AutoCloseable interface. Many standard JDK classes such as implement java.io.Closeable interface, which extends java.lang.AutoCloseable. 
 AutoCloseable has only one method - public void close() throws Exception.
