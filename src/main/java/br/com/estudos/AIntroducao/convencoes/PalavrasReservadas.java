@@ -1,6 +1,4 @@
-package br.com.estudos._002_.conventions;
-
-
+package br.com.estudos.AIntroducao.convencoes;
 
 /**
  * 
