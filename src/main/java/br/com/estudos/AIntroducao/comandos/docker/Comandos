@@ -3,6 +3,8 @@ O Docker vai validar nosso arquivo yml e se tudo estiver ok vai começar a procur
 A primeira vez que você executa esse comando em um projeto pode demorar um pouco. O Docker precisa preparar todas as imagens que esses containers utilizarão e dependendo da sua internet ou do seu computador essa etapa pode levar alguns minutos.
 Feito isso o Docker começa a criar os containers na ordem e inicializá-los. E se tudo correu bem você pode listar os containers criados com docker ps. O output desse comando mostra todos os containers que estão em execução, adiciona a flag -a para ver todos os containers que existe na sua máquina.
 
+docker-compose down
+Remove os conteiners
 
 docker ps
 Esse comando é responsável por mostrar todos os containers, mesmo aqueles não mais em execução.
