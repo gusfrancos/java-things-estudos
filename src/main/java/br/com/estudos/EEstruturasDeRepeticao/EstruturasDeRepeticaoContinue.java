@@ -1,4 +1,4 @@
-package br.com.estudos._005_.fluxcontrol;
+package br.com.estudos.EEstruturasDeRepeticao;
 
 public class EstruturasDeRepeticaoContinue {
 
