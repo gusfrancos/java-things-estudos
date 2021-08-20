@@ -1,4 +1,4 @@
-package br.com.estudos._005_.fluxcontrol;
+package br.com.estudos.EEstruturasDeRepeticao;
 
 public class Aula06EstruturasDeRepeticao04 {
     // Dado o valor de um carro, descubra em quantas ele pode ser parcelado
