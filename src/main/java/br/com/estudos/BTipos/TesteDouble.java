@@ -1,4 +1,4 @@
-package br.com.estudos._003_.datatypes;
+package br.com.estudos.BTipos;
 
 public class TesteDouble {
 
