@@ -1,4 +1,4 @@
-package br.com.estudos._004_1.condicionais;
+package br.com.estudos.DCondicionais;
 
 public class EstruturasCondicionaisSwich {
 
