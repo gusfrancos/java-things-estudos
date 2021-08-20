@@ -1,4 +1,4 @@
-package br.com.estudos._003_.datatypes;
+package br.com.estudos.BTipos;
 
 /**
  * Temos dois tipos de variaveiss as do tipo primitivo e a dos tipo reference (são os objetos)

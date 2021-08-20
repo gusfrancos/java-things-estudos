@@ -1,4 +1,4 @@
-package br.com.estudos._003_.datatypes;
+package br.com.estudos.BTipos;
 
 //Antes de utilizar qualquer variavel local ela deve ser inicializada
 public class Exerc0001 {
