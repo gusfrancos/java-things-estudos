@@ -1,4 +1,4 @@
-package br.com.estudos.GOrientacaoAObjetos.methods;
+package br.com.estudos.GOrientacaoAObjetos.BMetodos;
 
 import br.com.estudos.GOrientacaoAObjetos.abstratas.Estudante;
 
