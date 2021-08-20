@@ -1,4 +1,4 @@
-package br.com.estudos._006_.arrayscollectios;
+package br.com.estudos.FArrays;
 
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package br.com.estudos._006_.arrayscollectios;
+package br.com.estudos.FArrays;
 
 
 //o indice de um array sempre começa em 0
