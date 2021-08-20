@@ -1,4 +1,4 @@
-package br.com.estudos._004_.operators;
+package br.com.estudos.COperadores;
 
 /**
  * Class OperatorsThings
