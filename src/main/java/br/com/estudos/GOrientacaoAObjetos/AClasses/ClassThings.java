@@ -1,4 +1,4 @@
-package br.com.estudos.GOrientacaoAObjetos.classes;
+package br.com.estudos.GOrientacaoAObjetos.AClasses;
 
 import br.com.estudos.GOrientacaoAObjetos.abstratas.Estudante;
 import br.com.estudos.GOrientacaoAObjetos.statics.Carro;
