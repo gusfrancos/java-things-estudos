@@ -1,4 +1,4 @@
-package br.com.estudos.IWrappers;
+package br.com.estudos.ICUtilitarias.AWrappers;
 
 public class WrappersThings {
 
