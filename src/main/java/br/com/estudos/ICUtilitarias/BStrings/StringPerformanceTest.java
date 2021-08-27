@@ -1,4 +1,4 @@
-package br.com.estudos._009_.strings;
+package br.com.estudos.ICUtilitarias.BStrings;
 
 public class StringPerformanceTest {
 	public static void main(String[] args) {
