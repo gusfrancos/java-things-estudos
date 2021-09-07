@@ -1,4 +1,4 @@
-package br.com.estudos.ICUtilitarias.CDates.test;
+package br.com.estudos.ICUtilitarias.DInternacionalizacao.test;
 
 import java.text.DateFormat;
 import java.util.Calendar;
