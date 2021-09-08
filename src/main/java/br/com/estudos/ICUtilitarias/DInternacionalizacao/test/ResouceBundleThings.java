@@ -1,4 +1,4 @@
-package br.com.estudos._011_.internationalization;
+package br.com.estudos.ICUtilitarias.DInternacionalizacao.test;
 
 import java.util.Locale;
 import java.util.ResourceBundle;
