@@ -1,4 +1,4 @@
-package br.com.estudos._012_.regex;
+package br.com.estudos.ICUtilitarias.ERegex;
 
 public class TokenThings {
 
