@@ -1,4 +1,4 @@
-package br.com.estudos.ICUtilitarias.FIO;
+package br.com.estudos.ICUtilitarias.FIO.test;
 
 import java.io.File;
 import java.io.FileReader;
