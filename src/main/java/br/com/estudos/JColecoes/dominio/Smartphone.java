@@ -31,8 +31,15 @@ public class Smartphone {
     public int hashCode() {
         return serialNumber == null ? 0 : this.serialNumber.hashCode();
     }
+    
+    
 
-    public String getSerialNumber() {
+    @Override
+	public String toString() {
+		return "Smartphone [serialNumber=" + serialNumber + ", marca=" + marca + "]";
+	}
+
+	public String getSerialNumber() {
         return serialNumber;
     }
 
