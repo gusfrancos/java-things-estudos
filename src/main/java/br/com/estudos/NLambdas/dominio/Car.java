@@ -1,4 +1,4 @@
-package br.com.estudos.OComportamento.dominio;
+package br.com.estudos.NLambdas.dominio;
 
 public class Car {
     private String name = "Audi";

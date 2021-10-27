@@ -1,6 +1,6 @@
 package br.com.estudos.OComportamento.interfaces;
 
-import br.com.estudos.OComportamento.dominio.Car;
+import br.com.estudos.NLambdas.dominio.Car;
 
 @FunctionalInterface
 public interface CarPredicate {

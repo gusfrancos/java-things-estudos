@@ -3,7 +3,7 @@ package br.com.estudos.OComportamento.tests;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.estudos.OComportamento.dominio.Car;
+import br.com.estudos.NLambdas.dominio.Car;
 import br.com.estudos.OComportamento.interfaces.CarPredicate;
 
 public class ComportamentoPorParametroTest02 {

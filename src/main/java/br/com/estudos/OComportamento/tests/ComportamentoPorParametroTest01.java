@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.estudos.OComportamento.dominio.Car;
+import br.com.estudos.NLambdas.dominio.Car;
 
 public class ComportamentoPorParametroTest01 {
     private static List<Car> cars = List.of(new Car("green", 2011), new Car("black", 1998), new Car("red", 2019));
