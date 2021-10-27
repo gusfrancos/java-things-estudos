@@ -1,4 +1,4 @@
-package br.com.estudos.OComportamento.interfaces;
+package br.com.estudos.NLambdas.interfaces;
 
 import br.com.estudos.NLambdas.dominio.Car;
 

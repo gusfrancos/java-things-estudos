@@ -1,4 +1,4 @@
-	package br.com.estudos.OComportamento.tests;
+	package br.com.estudos.NLambdas.Predicate.test;
 
 import java.util.ArrayList;
 import java.util.List;
