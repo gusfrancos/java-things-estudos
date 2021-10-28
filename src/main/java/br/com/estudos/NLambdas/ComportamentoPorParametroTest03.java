@@ -1,10 +1,10 @@
-package br.com.estudos.OComportamento.tests;
+package br.com.estudos.NLambdas;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import br.com.estudos.OComportamento.dominio.Car;
+import br.com.estudos.NLambdas.dominio.Car;
 
 public class ComportamentoPorParametroTest03 {
     private static List<Car> cars = List.of(new Car("green", 2011), new Car("black", 1998), new Car("red", 2019));
