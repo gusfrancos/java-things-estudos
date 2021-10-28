@@ -1,4 +1,4 @@
-	package br.com.estudos.NLambdas.Predicate.test;
+	package br.com.estudos.NLambdas;
 
 import java.util.ArrayList;
 import java.util.List;
