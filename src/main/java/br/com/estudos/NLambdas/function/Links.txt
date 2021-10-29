@@ -1,0 +1,2 @@
+https://www.concretepage.com/java/jdk-8/function-apply-in-java-8
+https://www.geeksforgeeks.org/function-interface-in-java-with-examples/
