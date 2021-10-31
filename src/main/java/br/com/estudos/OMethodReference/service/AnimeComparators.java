@@ -1,6 +1,6 @@
-package br.com.estudos.NLambdas;
+package br.com.estudos.OMethodReference.service;
 
-import br.com.estudos.NLambdas.dominio.Anime;
+import br.com.estudos.OMethodReference.dominio.Anime;
 
 public class AnimeComparators {
     public static int compareByTitle(Anime a1, Anime a2) {
@@ -8,6 +8,10 @@ public class AnimeComparators {
     }
 
     public static int compareByEpisodes(Anime a1, Anime a2) {
+        return Integer.compare(a1.getEpisodes(), a2.getEpisodes());
+    }
+
+    public int compareByEpisodesNonStatic(Anime a1, Anime a2) {
         return Integer.compare(a1.getEpisodes(), a2.getEpisodes());
     }
 }

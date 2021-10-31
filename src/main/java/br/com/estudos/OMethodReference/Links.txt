@@ -1,0 +1,3 @@
+https://blog.caelum.com.br/java-8-lambda-ou-method-reference-entenda-a-diferenca/amp/
+https://www.baeldung.com/java-method-references
+https://www.codementor.io/@eh3rrera/using-java-8-method-reference-du10866vx
