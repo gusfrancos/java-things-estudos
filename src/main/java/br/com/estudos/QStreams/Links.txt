@@ -1,0 +1,3 @@
+https://www.oracle.com/br/technical-resources/articles/java-stream-api.html
+https://medium.com/@racc.costa/streams-no-java-8-e-no-java-9-36177c5c3313
+https://www.devmedia.com.br/java-streams-api-manipulando-colecoes-de-forma-eficiente/37630
