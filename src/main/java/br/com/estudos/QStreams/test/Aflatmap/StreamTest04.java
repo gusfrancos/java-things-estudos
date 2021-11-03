@@ -1,4 +1,4 @@
-package br.com.estudos.QStreams.test.flatmap;
+package br.com.estudos.QStreams.test.Aflatmap;
 
 import java.util.ArrayList;
 import java.util.List;
