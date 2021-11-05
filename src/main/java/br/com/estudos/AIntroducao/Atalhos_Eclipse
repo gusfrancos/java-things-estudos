@@ -1,3 +1,5 @@
+Ctrl + Alt + T : Abre um Terminal na pasta
+
 Ctrl + Shift + O : Organizar os imports
 
 Ctrl + Shift + F : Este atalho indenta o teu código, baseado nos templates definidos nas preferências da IDE. Se não existir nenhum template, o padrão do eclipse será utilizado.
