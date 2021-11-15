@@ -3,6 +3,19 @@ package br.com.estudos.QStreams.test.FParallel;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
+// Observar (Aula 219)
+//	 - Benchmark
+//   - Unboxing | boxing
+//   - operações ruins (limit, findFirst)
+//   - custo total da computação N, P
+//   - Quantidade de dados muito pequena não vale a pena
+//   - Tipos de coleções
+//   - Tamanho do Stream  (tamanho já definidos são melhores para paralelizar)
+//   - Processamento do merge
+
+
+
+
 public class StreamTest16 {
 
     public static void main(String[] args) {
