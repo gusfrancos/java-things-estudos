@@ -27,7 +27,6 @@ class Worker implements Runnable {
         }
     }
 }
-
 public class ReentrantLockTest01 {
     public static void main(String[] args) {
         ReentrantLock lock = new ReentrantLock(true);
