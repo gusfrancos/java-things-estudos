@@ -1,4 +1,4 @@
-package br.com.estudos._014_.designparttenrs.singleton;
+package br.com.estudos.TDesignparttenrs.singleton;
 
 public class SingletonThings {
 

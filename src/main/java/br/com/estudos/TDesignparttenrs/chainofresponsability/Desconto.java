@@ -1,4 +1,4 @@
-package br.com.estudos._014_.designparttenrs.chainofresponsability;
+package br.com.estudos.TDesignparttenrs.chainofresponsability;
 
 public interface Desconto {
 	double desconta(Orcamento orcamento);

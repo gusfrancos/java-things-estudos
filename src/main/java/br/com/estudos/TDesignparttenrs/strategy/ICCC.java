@@ -1,4 +1,4 @@
-package br.com.estudos._014_.designparttenrs.strategy;
+package br.com.estudos.TDesignparttenrs.strategy;
 
 public class ICCC implements Imposto {
 	 public double calcula(Orcamento orcamento) {

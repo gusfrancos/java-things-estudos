@@ -1,4 +1,4 @@
-package br.com.estudos._014_.designparttenrs.strategy;
+package br.com.estudos.TDesignparttenrs.strategy;
 public class CalculadorDeImpostos {
 
     public void realizaCalculo(Orcamento orcamento, Imposto imposto) {
