@@ -1,69 +1,83 @@
 package br.com.estudos.TDesignparttenrs.dominio;
 
-
 public class Carro {
-	private String marca;
-	private String cor;
-	private String placa;
-	private Integer velocidadeAtual;
-	private char marchaAtual;
-	private Boolean freioDeMaoPuxado;
-	private Boolean chaveVirada;
-
-	public Carro(String marca, String cor, String placa, Integer velocidadeAtual, char marchaAtual,
-			Boolean freioDeMaoPuxado, Boolean chaveVirada) {
-
-		this.marca = marca;
-		this.cor = cor;
-		this.placa = placa;
-		this.velocidadeAtual = velocidadeAtual;
-		this.marchaAtual = marchaAtual;
-		this.freioDeMaoPuxado = freioDeMaoPuxado;
-		this.chaveVirada = chaveVirada;
-	}
-
-	@Override
-	public String toString() {
-		return "Carro [marca=" + marca + ", cor=" + cor + ", placa=" + placa + ", velocidadeAtual=" + velocidadeAtual
-				+ ", marchaAtual=" + marchaAtual + ", freioDeMaoPuxado=" + freioDeMaoPuxado + ", chaveVirada="
-				+ chaveVirada + "]";
-	}
-
-	public static final class CarroBuilder {
-		private String marca;
-		private String cor;
-		private String placa;
-		private Integer velocidadeAtual;
-		private char marchaAtual;
-		private Boolean freioDeMaoPuxado;
-		private Boolean chaveVirada;
-
-		public CarroBuilder() {
+	 	private String marca;
+	 	private String cor;
+	 	private String placa;
+	 	private Integer velocidadeAtual;
+	 	private char marchaAtual;
+	 	private Boolean freioDeMaoPuxado;
+	 	private Boolean chaveVirada;
+	 	private Integer numeroBancos;
+	 	private Boolean temGPS;
+	 	private Boolean temArCondicionado;
+	 	private Boolean temVidroEletrico;
+	 	
+		 	
+		public Boolean getTemVidroEletrico() {
+			return temVidroEletrico;
 		}
-
-		public CarroBuilder marca(String marca) {
+		public void setTemVidroEletrico(Boolean temVidroEletrico) {
+			this.temVidroEletrico = temVidroEletrico;
+		}
+		public Boolean getTemArCondicionado() {
+			return temArCondicionado;
+		}
+		public void setTemArCondicionado(Boolean temArCondicionado) {
+			this.temArCondicionado = temArCondicionado;
+		}
+		public Boolean getTemGPS() {
+			return temGPS;
+		}
+		public void setTemGPS(Boolean temGPS) {
+			this.temGPS = temGPS;
+		}
+		public Integer getNumeroBancos() {
+			return numeroBancos;
+		}
+		public void setNumeroBancos(Integer numeroBancos) {
+			this.numeroBancos = numeroBancos;
+		}
+		public String getMarca() {
+			return marca;
+		}
+		public void setMarca(String marca) {
 			this.marca = marca;
-			return this;
 		}
-
-		public CarroBuilder placa(String placa) {
+		public String getCor() {
+			return cor;
+		}
+		public void setCor(String cor) {
+			this.cor = cor;
+		}
+		public String getPlaca() {
+			return placa;
+		}
+		public void setPlaca(String placa) {
 			this.placa = placa;
-			return this;
 		}
-
-		public CarroBuilder velocidadeAtual(Integer velocidadeAtual) {
+		public Integer getVelocidadeAtual() {
+			return velocidadeAtual;
+		}
+		public void setVelocidadeAtual(Integer velocidadeAtual) {
 			this.velocidadeAtual = velocidadeAtual;
-			return this;
 		}
-
-		public CarroBuilder marchaAtual(char marchaAtual) {
+		public char getMarchaAtual() {
+			return marchaAtual;
+		}
+		public void setMarchaAtual(char marchaAtual) {
 			this.marchaAtual = marchaAtual;
-			return this;
 		}
-
-		public Carro build() {
-			return new Carro(marca, cor, placa, velocidadeAtual, marchaAtual, freioDeMaoPuxado, chaveVirada);
+		public Boolean getFreioDeMaoPuxado() {
+			return freioDeMaoPuxado;
 		}
-	}
+		public void setFreioDeMaoPuxado(Boolean freioDeMaoPuxado) {
+			this.freioDeMaoPuxado = freioDeMaoPuxado;
+		}
+		public Boolean getChaveVirada() {
+			return chaveVirada;
+		}
+		public void setChaveVirada(Boolean chaveVirada) {
+			this.chaveVirada = chaveVirada;
+		}
 }
-		
