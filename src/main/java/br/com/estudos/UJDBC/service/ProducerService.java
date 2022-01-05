@@ -35,6 +35,10 @@ public class ProducerService {
 	    public static void showProducerMetadata() {
 	        ProducerRepository.showProducerMetadata();
 	    }
+	    
+	    public static void showDriverMetaData() {
+	        ProducerRepository.showDriverMetaData();
+	    }
 
 	    
 	    public static List<Producer> findAll() {
