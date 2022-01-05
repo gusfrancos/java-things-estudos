@@ -31,6 +31,10 @@ public class ProducerService {
 	    public static List<Producer> findByName(String name) {
 	        return ProducerRepository.findByName(name);
 	    }
+	    
+	    public static void showProducerMetadata() {
+	        ProducerRepository.showProducerMetadata();
+	    }
 
 	    
 	    public static List<Producer> findAll() {
