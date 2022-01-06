@@ -44,5 +44,8 @@ public class ProducerService {
 	    public static List<Producer> findAll() {
 	        return ProducerRepository.findAll();
 	    }
-
+	    
+	    public static void showTypeScrollWorking() {
+	        ProducerRepository.showTypeScrollWorking();
+	    }
 }
