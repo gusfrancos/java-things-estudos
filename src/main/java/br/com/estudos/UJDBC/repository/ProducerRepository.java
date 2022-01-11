@@ -2,6 +2,7 @@ package br.com.estudos.UJDBC.repository;
 
 import lombok.extern.log4j.Log4j2;
 
+import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.PreparedStatement;
