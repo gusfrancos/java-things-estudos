@@ -9,7 +9,15 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class ConnectionFactoryRowSetTest01 {
 	public static void main(String[] args) {
-        List<Producer> producers = ProducerServiceRowSet.findByNameJdbcRowSet("NHK");
+        //List<Producer> producers = ProducerServiceRowSet.findByNameJdbcRowSet("NHK");
+        //log.info(producers);
+		
+		Producer producerToUpdate = Producer.builder().id(1).name("MAD").build();
+        ProducerServiceRowSet.updateJdbcRowSet(producerToUpdate);
+        log.info("------------------------");
+        List<Producer> producers = ProducerServiceRowSet.findByNameJdbcRowSet("");
         log.info(producers);
+		
+		
     }
 }
