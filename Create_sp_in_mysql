@@ -1,0 +1,6 @@
+DELIMITER //
+create procedure sp_get_producer_by_name (name varchar(100))
+BEGIN
+	select * from peoducer where name like name;
+END //
+DELIMITER ;

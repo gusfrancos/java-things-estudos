@@ -1,0 +1,7 @@
+https://docs.docker.com/get-docker/
+
+pode ser necessário habilitar na BIOS (Hardware assited virtualization)
+
+
+
+onde posso ver imagens para o docker: https://hub.docker.com/
