@@ -6,8 +6,13 @@ import br.com.estudos.UJDBC.dominio.Producer;
 import br.com.estudos.UJDBC.repository.ProducerRepository;
 
 public class ProducerService {
-	public static void save(Producer producer) {
+
+    public static void save(Producer producer) {
         ProducerRepository.save(producer);
+    }
+
+    public static void saveTransaction(List<Producer> producers) {
+        ProducerRepository.saveTransaction(producers);
     }
 
     public static void delete(Integer id) {
@@ -20,12 +25,24 @@ public class ProducerService {
         ProducerRepository.update(producer);
     }
 
+    public static void updatePreparedStatement(Producer producer) {
+        requireValidId(producer.getId());
+        ProducerRepository.updatePreparedStatement(producer);
+    }
+
     public static List<Producer> findAll() {
         return ProducerRepository.findAll();
     }
 
     public static List<Producer> findByName(String name) {
         return ProducerRepository.findByName(name);
+    }
+
+    public static List<Producer> findByNamePreparedStatement(String name) {
+        return ProducerRepository.findByNamePreparedStatement(name);
+    }
+    public static List<Producer> findByNameCallableStatement(String name) {
+        return ProducerRepository.findByNameCallableStatement(name);
     }
 
     public static void showProducerMetaData() {
@@ -49,20 +66,7 @@ public class ProducerService {
     }
 
     public static void findByNameAndDelete(String name) {
-         ProducerRepository.findByNameAndDelete(name);
-    }
-    
-    public static List<Producer> findByNamePreparedStatement(String name) {
-        return ProducerRepository.findByNamePreparedStatement(name);
-    }
-    
-    public static void updatePreparedStatement(Producer producer) {
-        requireValidId(producer.getId());
-        ProducerRepository.updatePreparedStatement(producer);
-    }
-    
-    public static List<Producer> findByNameCallableStatement(String name) {
-        return ProducerRepository.findByNameCallableStatement(name);
+        ProducerRepository.findByNameAndDelete(name);
     }
 
 
